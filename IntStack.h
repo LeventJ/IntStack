@@ -5,7 +5,7 @@ class IntStack
 {
     public:
         IntStack();
-            void add(int a);
+            void push(int a);
             void print();
             int pop();
         virtual ~IntStack();
