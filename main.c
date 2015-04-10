@@ -34,13 +34,13 @@ int main(){
     while(isPrime)
     {
         system("cls");
-        cout<<"1.add number"<<endl<<"2.print pop"<<endl<<"3.print all of them"<<endl<<"and other number to quit"<<endl;
+        cout<<"1.push"<<endl<<"2.pop"<<endl<<"3.print all of them"<<endl<<"and other number to quit"<<endl;
         cin>>control;
         switch(control){
         case 1:
             cout<<"input an number"<<endl;
             cin>>number;
-            stack.add(number);
+            stack.push(number);
             system("pause");
             break;
         case 2:
