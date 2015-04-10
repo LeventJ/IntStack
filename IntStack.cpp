@@ -6,7 +6,7 @@ IntStack::IntStack()
 {
     //ctor
 }
-    void  IntStack:: add(int a){
+    void  IntStack:: push(int a){
         num[n]=a;
         n++;
     }
